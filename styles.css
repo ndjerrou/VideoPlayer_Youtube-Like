@@ -1,7 +1,6 @@
 nav {
     /* background-color: green; */
     height: 70px;
-    width: 70%;
     margin: auto;
     margin-bottom: 20px;
     display: flex;
@@ -12,24 +11,43 @@ nav {
 #container {
     /* background-color: aqua; */
     margin-left: 10px;
-    display: flex;
 }
-
-#main-video {
+#videos {
+ display: flex;
+}
+#main-video embed {
     /* background-color: blue; */
     margin-top: 10px;
+
+   
+    width: 100%;
+    height: 100%;
 }
 
 #related-videos {
     /* background-color: rgb(19, 190, 85); */
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#description-container {
+    margin-top: 10px;
+    width: 50%;
+    text-align: left;
+    
+}
+#description {
+    display: flex;
 }
 
 aside>img {
     width: 200px;
     height: 100px;
 }
-
+#views {
+    color: gray;
+}
 nav>img {
     width: 20%;
     /* margin-right: 30px; */
@@ -42,7 +60,7 @@ nav>input {
 }
 
 #logging-img {
-    width: 10%;
+    width: 2%;
 }
 
 #comments {
