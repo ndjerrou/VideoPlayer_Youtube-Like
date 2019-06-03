@@ -8,17 +8,28 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav>Youtube</nav>
+    <nav>
+      <img src="./assets/imgs/logo_youtube.png" alt="" />
+      <input type="text" id="searchVideos" placeholder="Sports, Music..." />
+      <img src="./assets/imgs/icon_logging.png" alt="" id="logging-img" />
+    </nav>
 
     <section id="container">
-      <div id="content">Create a blank HTML document.
-Come up with a plan – which sections of the page should be grouped together (e.g. the navigation bar vs the video vs the sidebar etc)?
-Create empty semantic HTML elements to enclose those sections.
-Use basic CSS to size and position them appropriately on the page. It may be helpful to make their backgrounds different colors so you can see the different sections. Don’t forget to use your browser’s developer tools (right click on the page, click “inspect element”)!
-Now let’s start filling in those divs with content by creating the navbar.
-</div>
-<div id="comments">Comment section </div>
+      <div id="main-video">
+        <iframe
+          width="400px"
+          height="400px"
+          src="https://www.youtube.com/embed/6J17ho9ZNeU"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <aside id="related-videos">
+        <img src="./assets/imgs/thumbmail_video_1.jpeg" alt="" />
+        <img src="./assets/imgs/thumbmail_video_2.jpeg" alt="" />
+        <img src="./assets/imgs/thumbmail_video_3.jpeg" alt="" />
+      </aside>
     </section>
-    <aside>link 1 link 2</aside>
   </body>
 </html>
