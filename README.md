@@ -1,3 +1,3 @@
-# google-homepage
+# youtube-homepage
 
-Making the google homepage using HTML & CSS
+Copying the youtube video player page
