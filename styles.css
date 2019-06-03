@@ -1,11 +1,27 @@
 nav {
-    /* background-color: green; */
-    height: 70px;
-    margin: auto;
+    display: block;
+    height: 80px;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+#logo-youtube {
+    height: 200px;
+    width: 270px;
+    margin-right: 25px;
+}
+
+#logging-img {
+    height: 50px;
+    width: 50px;
+    margin-right: 50px;
+}
+
+#searchVideos {
+    width: 700px;
+    height: 30px;
 }
 
 #main-container {
@@ -23,6 +39,8 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: -370px;
+    height: 550px;
 }
 
 #avatar {
@@ -43,4 +61,13 @@ nav {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
+}
+
+iframe {
+    height: 600px;
+    width: 1300px;
+}
+
+#views {
+    color: grey;
 }
