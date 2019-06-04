@@ -1,73 +1,73 @@
 nav {
-  display: block;
-  height: 80px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: block;
+    height: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #logo-youtube {
-  height: 200px;
-  width: 270px;
-  margin-right: 25px;
+    height: 180px;
+    width: 240px;
+    margin-right: 25px;
 }
 
 #logging-img {
-  height: 50px;
-  width: 50px;
-  margin-right: 50px;
+    height: 50px;
+    width: 50px;
+    margin-right: 50px;
 }
 
 #searchVideos {
-  width: 700px;
-  height: 30px;
+    width: 700px;
+    height: 30px;
 }
 
 #main-container {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 #main-video {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 #related-videos {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-left: -370px;
-  height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -370px;
+    height: 550px;
 }
 
 #avatar {
-  display: flex;
+    display: flex;
 }
 
 #avatar-img {
-  border-radius: 40%;
-  border-color: black;
-  border: 1px solid black;
+    border-radius: 40%;
+    border-color: black;
+    border: 1px solid black;
 }
 
 #author {
-  display: flex;
+    display: flex;
 }
 
 #published-time {
-  display: flex;
-  flex-direction: column;
-  margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
 }
 
 iframe {
-  height: 600px;
-  width: 1300px;
+    height: 600px;
+    width: 1300px;
 }
 
 #views {
-  color: grey;
+    color: grey;
 }
