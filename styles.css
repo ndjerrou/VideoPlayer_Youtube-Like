@@ -39,7 +39,6 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: -370px;
     height: 550px;
 }
 
