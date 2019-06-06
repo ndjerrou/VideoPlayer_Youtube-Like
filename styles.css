@@ -1,151 +1,168 @@
 nav {
-    display: block;
-    height: 80px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: block;
+  height: 80px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #logo-youtube {
-    height: 180px;
-    width: 240px;
-    margin-right: 25px;
+  height: 180px;
+  width: 240px;
+  margin-right: 25px;
 }
 
 #logging-img {
-    height: 50px;
-    width: 50px;
-    margin-right: 50px;
+  height: 50px;
+  width: 50px;
+  margin-right: 50px;
 }
 
 #searchVideos {
-    /* width: 700px;
+  /* width: 700px;
     height: 30px; */
-    width: 55%;
-    height: 30px;
+  width: 55%;
+  height: 30px;
 }
 
 #right-icons {
-    display: flex;
+  display: flex;
 }
 
 body {
-    height: 1200px;
+  height: 1200px;
 }
 
 #main-container {
-    display: flex;
-    justify-content: space-around;
-    align-content: space-between;
-    width: 95%;
-    height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  width: 95%;
+  height: 80%;
 }
 
 #main-video {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
 }
 
 #related-videos {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 550px;
 }
 
 #avatar {
-    display: flex;
+  display: flex;
 }
 
 #avatar-img {
-    border-radius: 40%;
-    border-color: black;
-    border: 1px solid black;
+  border-radius: 40%;
+  border-color: black;
+  border: 1px solid black;
 }
 
 #published-time {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
 }
 
 iframe {
-    height: 40%;
-    width: 100%;
+  height: 40%;
+  width: 100%;
 }
 
 #social-share-description {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 #views {
-    color: grey;
+  color: grey;
 }
 
 #button-subscription {
-    background-color: #cc0000;
-    color: white;
-    height: 42px;
-    width: 134px;
-    font-size: 14px;
-    font-family: "Roboto", "Noto", sans-serif;
-    text-transform: uppercase;
+  background-color: #cc0000;
+  color: white;
+  height: 42px;
+  width: 134px;
+  font-size: 14px;
+  font-family: "Roboto", "Noto", sans-serif;
+  text-transform: uppercase;
 }
 
 #author-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #avatar-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 #desc-paragraph {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 #desc-paragraph {
-    width: 52%;
-    margin: 0 10%;
-    line-height: 2.3;
+  width: 52%;
+  margin: 0 10%;
+  line-height: 2.3;
 }
 
 hr {
-    color: rgb(44, 20, 20);
-    width: 100%;
-    margin-bottom: 20px;
+  color: rgb(44, 20, 20);
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 #comment-section {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #comment-header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
 }
 
 #comment-user {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 #input-user {
-    width: 80%;
+  width: 80%;
 }
-
+#comment-watcher {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#details-comment {
+  display: flex;
+  flex-direction: column;
+}
+#commenter-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+.commenter-avatar {
+  border-radius: 50px;
+}
 /*
 #comment-wrapper {
     display: flex;
