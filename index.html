@@ -43,7 +43,7 @@
               </div>
               <div id="published-time">
                 <span>Techoist</span>
-                <span>Published on Mar 24, 2019</span>
+                <span id="published-date">Published on Mar 24, 2019</span>
               </div>
             </div>
 
@@ -67,19 +67,58 @@
 
         <div id="comment-section">
           <div id="comment-header-top">
-            <span>1538 Comments</span>
-            <img src="./assets/imgs/sort.png" alt="" />
-            <span>SORT BY</span>
+            <div id="number-comments">
+              <span>1538 Comments</span>
+            </div>
+            <div id="filter-icon">
+              <img src="./assets/imgs/sort.png" alt="" />
+              <span>SORT BY</span>
+            </div>
           </div>
           <!-- //comment-header-top -->
 
           <div id="comment-user">
-            <img src="./assets/imgs/commentusericon.png" alt="" />
+            <img
+              width="40px"
+              height="40px"
+              src="./assets/imgs/commentusericon.png"
+              alt=""
+            />
             <input
               type="text"
               name="comment"
               id="input-user"
               placeholder="Add a public comment"
+            />
+          </div>
+        </div>
+
+        <div id="comment-watcher">
+          <div>
+            <img
+              class="commenter-avatar"
+              src="./assets/imgs/photo.jpg"
+              alt=""
+              width="40px"
+              height="40px"
+            />
+          </div>
+          <div id="details-comment">
+            <div id="commenter-details">
+              <h5 id="username">Mathew Humbird</h5>
+              <span id="published-date-comment">4 years ago</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis alias placeat quae harum natus distinctio repudiandae?
+              Deleniti odio delectus doloribus voluptatibus, repellendus aut
+              libero inventore! Consequuntur magni eum ducimus illo!
+            </p>
+            <img
+              src="./assets/imgs/comment-box-social.png"
+              alt=""
+              width="100px"
+              height="22px"
             />
           </div>
         </div>
@@ -89,20 +128,50 @@
               class="commenter-avatar"
               src="./assets/imgs/photo.jpg"
               alt=""
+              width="40px"
+              height="40px"
             />
           </div>
           <div id="details-comment">
             <div id="commenter-details">
-              <h5 id="username">Mathew Humbird</h5>
-              <span>4 years ago</span>
+              <h5 id="username">Yen Humbird</h5>
+              <span id="published-date-comment">1 year ago</span>
             </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis alias placeat quae harum natus distinctio repudiandae?
-              Deleniti odio delectus doloribus voluptatibus, repellendus aut
-              libero inventore! Consequuntur magni eum ducimus illo!
             </p>
-            <img src="./assets/imgs/comment-box-social.png" alt="" />
+            <img
+              src="./assets/imgs/comment-box-social.png"
+              alt=""
+              width="100px"
+              height="22px"
+            />
+          </div>
+        </div>
+        <div id="comment-watcher">
+          <div>
+            <img
+              class="commenter-avatar"
+              src="./assets/imgs/photo.jpg"
+              alt=""
+              width="40px"
+              height="40px"
+            />
+          </div>
+          <div id="details-comment">
+            <div id="commenter-details">
+              <h5 id="username">Nissim MV</h5>
+              <span id="published-date-comment">2 years ago</span>
+            </div>
+            <p>
+              Nice video.
+            </p>
+            <img
+              src="./assets/imgs/comment-box-social.png"
+              alt=""
+              width="100px"
+              height="22px"
+            />
           </div>
         </div>
       </section>
