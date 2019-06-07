@@ -20,8 +20,6 @@ nav {
 }
 
 #searchVideos {
-    /* width: 700px;
-    height: 30px; */
     width: 55%;
     height: 30px;
 }
@@ -194,42 +192,3 @@ hr {
 #published-date-comment {
     color: grey;
 }
-
-/*
-#comment-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-#sort-comment {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#comment-body {
-    display: flex;
-    flex-direction: column;
-}
-
-#individual-comment {
-    display: flex;
-}
-
-#indi-comment-wrapper {
-    display: flex;
-    flex-direction: column;
-}
-
-#indi-comment-1 {
-    display: flex;
-}
-
-#indi-comment-3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-*/
