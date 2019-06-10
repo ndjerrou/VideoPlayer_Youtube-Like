@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # A Clone of the Youtube Site using HTML & CSS
 
@@ -9,3 +10,8 @@ Possible improvement: make it mobile-responsive.<br>
 
 
 The project is live at [Youtube Clone](https://ndjerrou.github.io)
+=======
+# youtube-homepage
+
+Copying the youtube video player page
+>>>>>>> 328a02671d968afb67a40897edbc312bd4d1d97a
